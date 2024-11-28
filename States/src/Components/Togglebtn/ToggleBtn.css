@@ -1,0 +1,45 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.divbtn{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: repeat(2, 1fr);
+    border-radius: 10rem;
+    width: 30rem;
+    height: 15rem;
+    gap: 4rem;
+}
+
+.on,.off
+{
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    font: bold;
+    border-radius: 50%;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    padding: 25px;
+    height: 7rem;
+    width: 7rem;
+    background-color: red;
+}
+.on{
+    background-color: green;
+    transform: translateX(17rem);
+    transition: 0.2s;
+    border: solid grey 5px;
+}
+.off{
+    background-color: red;
+    transform: translateX(0);
+    transition: 0.2s;
+}
+
